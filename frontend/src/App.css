@@ -1,0 +1,171 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+  align-items: flex-start;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 10%;
+  color: #4d4d4d;
+}
+
+.checkbox {
+  margin-top: 0px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+li {
+  flex-grow: 1;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  min-height: 100px;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li input {
+  margin-right: 10px;
+}
+
+.project-naming {
+  margin: 0;
+  font-weight: bold;
+  width: 18%;
+  min-height: 120px;
+  border-radius: 5px 0 0 5px;
+  resize:vertical;
+  /*background-color: #f4f7f8;*/
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  display: block;
+  white-space: normal;
+}
+
+li a {
+  text-decoration: none;
+  color: #006ce0;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  width:98%;
+  margin-right: 5px;
+  display:flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 200px;
+  resize: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+img {
+  max-width: 200px;
+  border-radius: 5px;
+  resize: none;
+}
+
+.change-img {
+  margin-left: 10px;
+  max-width: 300px;
+}
+
+.project-description {
+  background-color: #b8e7fd;
+  padding: 10px;
+  border-left: 4px solid #007bff;
+  border-radius: 5px;
+  margin: 0px;
+  margin-left: 20px;
+  min-width: 100px;
+  flex-grow: 1;
+  font-size: 14px;
+  color: #333;
+  width: 50%;
+  height: auto;
+  resize: none;
+  overflow: hidden;
+  white-space: pre-line;
+}
+
+.project-image {
+  max-width: 300px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+.create-button {
+  margin-left: 10%;
+}
+
+.save-button {
+  margin-left: 10px;
+}
