@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+pyvenv.cfg
+
+# Flask
+instance/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+celerybeat-schedule
+.coverage
+htmlcov/
+db.sqlite3
+migrations/
+
+# SQLite database and related files
+*.sqlite3
+*.db
+*.db-journal
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+
+# VSCode and JetBrains IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node.js / React
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+dist/
+.DS_Store
+.eslintcache
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Logs & debugging
+logs/
+*.log
+debug.log
+nohup.out
+
+# Coverage reports
+coverage/
+*.cover
+*.coverage
+*.lcov
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
