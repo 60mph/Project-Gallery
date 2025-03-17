@@ -17,8 +17,3 @@ cd frontend
 npm install
 npm start
 ```
-
-## По умолчанию:
-
-### Backend работает на http://127.0.0.1:5000
-### Frontend работает на http://localhost:3000
